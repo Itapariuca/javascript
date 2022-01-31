@@ -1,9 +1,13 @@
-window.alert - Cria uma janelinha ao entrar no site
-window.confirm - Cria uma janelinha de confirmação
-window.prompt - Cria uma janelinha na qual você pode interagir escrevendo
+n - o que eu quero converter
+window.alert() - Cria uma janelinha ao entrar no site
+window.confirm() - Cria uma janelinha de confirmação
+window.prompt() - Cria uma janelinha na qual você pode interagir escrevendo
 
-// - Comentários em apenas uma linha
-/**/ - Comentários em uma ou mais linhas
+// - Comentários em apenas uma linha ( JS )
+/**/ - Comentários em uma ou mais linhas ( JS , CSS)
+<!-- --> - comentários em uma ou mais linhas ( HTML )
+
+${} - Template de str
 
 = - Recebe
 == - Igual
@@ -11,6 +15,7 @@ window.prompt - Cria uma janelinha na qual você pode interagir escrevendo
 ''-
 ""-
 ``- 
++ - concatenação
 
 null - Nulo
 var - Variável 
@@ -38,13 +43,21 @@ Data Types:
 	Unefined
 	Object
 		Array
-	Function 
+	Function ()
 
+Number.parseInt() - Faz uma conversão de str para um número inteiro
+Number.parseFloat() - Faz uma conversão de str para um número com ponto flutuante
+Number() - Identifica se um número é inteiro ou real
+	
+String() - gera uma str 
+n.toString() - converte um valor para str
+	
+n.length - Diz qual é o tamanho da str
+n.toUpperCase() - põe as letras em maiúsculas 
+n.toLowerCase() - põe as letras em minúsculas
+n.toFixed() - Põe mais casas decimais aos números
+.replace("") - Troca uma coisa por outra
 
-	
-	
-	
-	
-	
-	
-	
+document.write() - escreve comandos js na pagina do site
+
+ n1.toLocaleString('pt-BR', {style: 'currency', currency: ' '}) - Transforma um valor para uma moeda
