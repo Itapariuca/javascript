@@ -11,7 +11,7 @@ ${} - Template de str
 
 = - Recebe
 == - Igual
-=== - 
+=== - Testa se os valores são idênticos
 ''-
 ""-
 ``- 
@@ -70,7 +70,7 @@ document.write() - escreve comandos js na pagina do site
  		/: Divisão
  		%: Resto da divisão inteira
  		**: Potencia
- 			Ordem de Precedência:
+ 			Ordem de Precedência dos aritméticos :
  				(),{},[] --> ** --> *,/,% --> +,-
  	
  	Atribuição:
@@ -81,7 +81,19 @@ document.write() - escreve comandos js na pagina do site
  		<= - Menor igual
  		== - igual
  		!= - diferente de
- 	Lógicos
- 	Ternário
- 	
+ 	Lógicos: 
+ 		! - Negação ( não ):
+ 			Resultados: True ou False
+ 		&& - Conjunção ( e ):
+ 			Resultados: True True = True // True False = False // False True = False // False False = False
+ 		|| - Disjunção ( ou ):
+ 			Resultados: True True = True // True False = True // False True = True // False False = False
+ 	Ternário:
+ 		? - 
+ 		: - 
+ 			
+ 		
+ 		
+ 					Ordem de precedência dos operadores:
+ 						Aritméticos => Atribuição => Lógicos 
  	
