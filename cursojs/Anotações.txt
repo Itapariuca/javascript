@@ -61,3 +61,27 @@ n.toFixed() - Põe mais casas decimais aos números
 document.write() - escreve comandos js na pagina do site
 
  n1.toLocaleString('pt-BR', {style: 'currency', currency: ' '}) - Transforma um valor para uma moeda
+ 
+ Operadores:
+ 	Aritméticos:
+ 		+: Soma
+ 		-:  Subtração
+ 		*:  Multiplicação
+ 		/: Divisão
+ 		%: Resto da divisão inteira
+ 		**: Potencia
+ 			Ordem de Precedência:
+ 				(),{},[] --> ** --> *,/,% --> +,-
+ 	
+ 	Atribuição:
+ 	Relacionais:
+ 		> - Maior
+ 		< - Menor
+ 		>= - Maior igual
+ 		<= - Menor igual
+ 		== - igual
+ 		!= - diferente de
+ 	Lógicos
+ 	Ternário
+ 	
+ 	
