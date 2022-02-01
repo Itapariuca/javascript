@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>primeiros passos com dom</title>
+    <title>primeiros passos com DOM</title>
     <link rel="stylesheet" href="ex005.css">
 </head>
 <body>
     <h1>Iniciando estudos com dom</h1>
     <p>Aqui vai o rersultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em javascript</p>
-    <div>Clique em mim</div>
+    <div id="msg">Clique em mim</div>
     <script>
         var corpo = document.body
         var p1 = document.getElementsByTagName('p')[1]
-        
+        /*
+        var div = document.getElementById('msg')
+        div.style.background = '#47e44f'
+        div.innerText = 'Estou aguardando...'*/
+        var div = document.querySelector('div#msg')
+        div.style.background = 'blue'
     </script>
 </body>
 </html>
