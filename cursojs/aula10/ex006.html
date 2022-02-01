@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="ex006.css">
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+    <div id="area">
         Interaja...
     </div>
     <script>
         var area = document.getElementById('area')
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', sair)
         function clicar() {
             area.innerText = 'Clicou!'
+            area.style.background = '#19cc19'
         }
         function entrar() {
-            area.style.background = 'red'
+            area.style.background = '#db5959'
         }
         function sair() {
             area.innerText = 'Saiu...'
