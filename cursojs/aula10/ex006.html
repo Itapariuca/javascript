@@ -8,8 +8,21 @@
     <link rel="stylesheet" href="ex006.css">
 </head>
 <body>
-    <div id="area">
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
         Interaja...
     </div>
+    <script>
+        var area = document.getElementById('area')
+        function clicar() {
+            area.innerText = 'Clicou!'
+        }
+        function entrar() {
+            area.style.background = 'red'
+        }
+        function sair() {
+            area.innerText = 'Saiu...'
+            area.style.background = '#586fd6'
+        }
+    </script>
 </body>
 </html>
