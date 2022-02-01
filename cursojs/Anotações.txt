@@ -89,11 +89,16 @@ document.write() - escreve comandos js na pagina do site
  		|| - Disjunção ( ou ):
  			Resultados: True True = True // True False = True // False True = True // False False = False
  	Ternário:
- 		? - 
- 		: - 
+ 		? - True
+ 		: - False
  			
  		
  		
  					Ordem de precedência dos operadores:
  						Aritméticos => Atribuição => Lógicos 
  	
+getElementByTagName
+getElementById
+getElementByName
+getElementByClassName
+querySelector
